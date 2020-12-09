@@ -18,7 +18,6 @@ for line in file:
             if bag[-1]=='s':
                 bag=bag[:-1]
             input_list[outbag][bag]=nu
-
 def get_count(bag,input_dict,it=[0]):
     count=0
     for b,n in input_dict.items():
